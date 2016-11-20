@@ -1,1 +1,8 @@
-<h1>Hello World!</h1>
+
+<% @posts.each do |p| %>
+  <div class="post-container">
+    <h1><%= p.title %></h1>
+    <%= time_ago_in_words(p.created_at) %>
+    <p><%= p.content %></p>
+  </div>
+<% end %>

@@ -6,9 +6,33 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald|Source+Sans+Pro" rel="stylesheet">
   </head>
 
   <body>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-3 navbar-header">
+            <div class="text-center banner">Jehsee's Website</div>
+          </div>
+          <div class="col-lg-4 navbar-links">
+            <div class="top-menu">
+              <ul>
+                <li class="active"><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <div class="clearfix"> </div>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+    <div class="spacer"></div>
     <%= yield %>
   </body>
 </html>

@@ -1,0 +1,5 @@
+<% @posts.each do |p| %>
+  <h1><%= p.title %></h1>
+  <div><%= time_ago_in_words(p.created_at) %></div>
+  <div><%= p.content %></div>
+<% end %>
