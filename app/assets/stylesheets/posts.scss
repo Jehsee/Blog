@@ -2,9 +2,23 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.post-preview-container {
+  /*border: 1px solid black;*/
+}
 
-h1 {
-  font-family: 'Oswald', sans-serif;
+.post-preview {
+  /*border: 1px solid black;*/
+  margin-top: 2.5em;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+}
+
+
+.post-preview-container h1 {
+  /*border: 1px solid black;*/
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 p {
@@ -12,5 +26,5 @@ p {
 }
 
 a {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }

@@ -1,6 +1,7 @@
 .navbar {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   height: 8em;
+  z-index: 3;
 }
 
 .navbar-header {
@@ -10,15 +11,15 @@
   height: 150px;
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
-  letter-spacing: -2px;
+  /*letter-spacing: 1px;*/
 }
 
 .banner {
   /*border: 1px solid black;*/
   margin-top: 1em;
-  -ms-transform: scale(1, 1.5); /* IE 9 */
-  -webkit-transform: scale(1, 1.5); /* Safari */
-  transform: scale(1, 1.5);
+  -ms-transform: scale(1, 2); /* IE 9 */
+  -webkit-transform: scale(1, 2); /* Safari */
+  transform: scale(1, 2);
 }
 
 .spacer {
@@ -27,9 +28,6 @@
 }
 
 .top-menu{
-  /*border: 1px solid black;*/
-  /*float:left;*/
-  /*width:40%;*/
   margin-top:3.5em;
 }
 
